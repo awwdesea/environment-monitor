@@ -20,5 +20,10 @@ This project collects temperature and humidity data from a Pico 2 W sensor node 
 - DS18B20: main temperature sensor
 - DHT11: auxiliary temperature and humidity sensor
 
-## Backend flow
-Pico 2 W → wifi → InfluxDB → Grafana → Kuma / ntfy alerts
+## Dashboard
+![Grafana Dashboard](images/grafana-dashboard.png)
+
+## Schematic
+![KiCad Schematic](images/environment-monitor-schematic.png)
+
+[Open the full PDF schematic](environment-monitor.pdf)
