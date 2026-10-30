@@ -10,7 +10,7 @@ except ImportError:
     raise RuntimeError("Create secrets.py on the Pico with your credentials")
 
 # Config
-INFLUX_HOST     = "http://10.10.1.2:8086"
+INFLUX_HOST     = "http://x.x.x.x:8086"
 INFLUX_ORG      = "homelab"
 INFLUX_BUCKET   = "environment"
 INFLUX_URL      = f"{INFLUX_HOST}/api/v2/write?org={INFLUX_ORG}&bucket={INFLUX_BUCKET}&precision=s"
